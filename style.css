@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border: 2px solid black;
+    background-image: url("Images/istockphoto-157179746-612x612\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    min-height: 350px;
+    text-align: center;
+    border-radius: 13px;
+}
+
+#done{
+    border: 2px solid indianred;
+    padding: 0.5rem;
+    border-radius: 5rem;
+}
+
+#done:hover {
+    background-color: rgba(255, 255, 255, 0.415);
+    font-size: 1.01rem;
+}
+
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+}
+
+h1{
+    margin-top: 6%;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    padding-bottom: 2rem;
+}
+
+button{
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#increment{
+    background-color:indianred;
+}
+
+#save{
+    background-color: rgb(169, 205, 92);
+}
+
+p{
+    font-size: large;
+    color: rgb(255, 148, 112);
+    text-align: left;
+    margin-left: 1.8rem;
+}
